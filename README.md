@@ -6,11 +6,11 @@ At this point, although one project might serve all I am not so sure about that.
 ## This app was created with the Ionic CLI:
 
 ### Windows OS:
-npm install -g ionic cordova
+    npm install -g ionic cordova
 clone this repo
 cd to confRoomMobile...
-npm install
-ionic serve
+    npm install
+    ionic serve
 (Brower loads automatically)
 
 Please refer to https://ionicframework.com/docs//intro/tutorial/ for more info on getting started with Ionic.
