@@ -2,18 +2,24 @@
 
   <ion-header>
     <ion-toolbar color="primary">
-    <ion-card>
-      <ion-buttons start>
-        <button ion-button small color="dark">
+    <ion-card color="primary">
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="./assets/img/ionic_logo.png">
+        </ion-avatar>
+        Nationwide
+        <button ion-button small color="primary">
           Log In
         </button>
-      </ion-buttons>
-        <ion-title>Nationwide</ion-title>
-      <ion-buttons end>
-        <button (click)="openPage(settings)" ion-button icon-only color="dark">
+        <button (click)="openPage(settings)" ion-button icon-only color="primary">
           <ion-icon name="settings"></ion-icon>
         </button>
-      </ion-buttons>
+      </ion-item>
+      
+        <!-- <ion-title>Nationwide</ion-title> -->
+      
+
     </ion-card>
     </ion-toolbar>
   </ion-header>

@@ -3,23 +3,54 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Conference Room</ion-title>
+    <ion-title>Room Finder</ion-title>
   </ion-navbar>
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="card-background-page">
 
-  <h3>Good Morning/Afternoon/Evening!</h3>
+  <ion-card>
+    <img src="./assets/img/gateway_trail.jpg"/>
+    <div class="card-title">{{daySegment}}</div>
+    <div class="card-subtitle">GPS Location Identified: Scottsdale, AZ</div>
+  </ion-card>
+
+  <!-- <h3>Good Morning/Afternoon/Evening!</h3> -->
+  <!-- <h3 text-center>{{daySegment}}</h3>
 
   <p>
-    This starter project is our way of helping you get a functional app running in record time.
+    GPS Location Identified: Scottsdale, AZ
+  </p> 
+-->
+
+  <ion-card>
+  <p text-center>
+    <b>Conference Rooms Available</b>
   </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
+  <p text-center>
+    <small>AS OF 2:15 PM PDT 06/16/17</small>
   </p>
+  <ion-list>
+    <ion-list-header>
+      Gainey - Phase 2
+    </ion-list-header>
+    <ion-item> Azurite </ion-item>
+    <ion-item> Quartz </ion-item>
+    <ion-item> Pinon </ion-item>
+    <ion-item> Sycamore </ion-item>
+    <ion-list-header>
+      Gainey - Phase 3
+    </ion-list-header>
+    <ion-item> Apache Tears </ion-item>
+    <ion-item> Aztec Peak </ion-item>
+    <ion-item> Estrella </ion-item>
+    <ion-item> Picacho Peak </ion-item>
+    
+  </ion-list>
   <p>
     <button ion-button color="primary" menuToggle>Toggle Menu</button>
   </p>
+  </ion-card>
 
 </ion-content>
