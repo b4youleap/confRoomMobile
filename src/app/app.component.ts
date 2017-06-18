@@ -32,8 +32,8 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Rooms Available', component: HelloIonicPage },
-      { title: 'My First List', component: ListPage }
+      { title: 'Room Finder', component: HelloIonicPage },
+      { title: 'Room List', component: ListPage }
     ];
   }
 
